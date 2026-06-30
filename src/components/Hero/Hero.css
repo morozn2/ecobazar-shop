@@ -1,0 +1,174 @@
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    justify-self: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    gap: 25px;
+}
+
+.big-hero {
+    background-image: url("big-hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 872px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.big-hero-content {
+    display: flex;
+    flex-direction: column;
+    left: 60px;
+    position: absolute;
+    top: 25%;
+}
+
+.big-hero-content h2 {
+    font-size: 48px;
+    color: white;
+    width: 60%;
+    font-weight: 600;
+}
+
+.hero-sale-text {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.discount {
+    background-color: #FF8A00;
+    border-radius: 5px;
+    padding: 9px;
+    font-weight: 600;
+}
+
+.small-hero-text {
+    font-size: 14px;
+    margin-top: 20px;
+    color: white;
+}
+
+.sale-wrap {
+    border-left: 3px solid #84D187;
+    padding-left: 10px;
+    margin-bottom: 28px;
+    margin-top: 28px;
+}
+
+.shop-button {
+    width: 27%;
+    height: 50px;
+    background-color: white;
+    color: #00B207;
+    border: none;
+    border-radius: 53px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.small-heros-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.small-hero-one {
+    background-image: url("small-hero-one.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 423px;
+    height: 288px;
+    border-radius: 10px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.summer-sale-wrap {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 32px;
+    top: 32px;
+    gap: 5px;
+}
+
+.summer-sale-wrap h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.summer-discount {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.summer-discount-text {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.small-hero-button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    cursor: pointer;
+    color: #00B207;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.small-hero-two {
+    background-image: url("small-hero-two.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 423px;
+    height: 288px;
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-deal-wrap {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    top: 25%;
+    gap: 10px;
+}
+
+.hero-two-heading {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.hero-two-info {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
