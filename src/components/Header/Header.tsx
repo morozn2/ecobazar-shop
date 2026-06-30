@@ -1,4 +1,5 @@
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 export function Header() {
     return (
@@ -24,7 +25,7 @@ export function Header() {
                 </div>
             </div>
             <div className='middle-nav'>
-                <a href="home"><img src="logo.png" alt="Ecobazar logo" /></a>
+                <Link to = "/"><img src="logo.png" alt="Ecobazar logo" /></Link>
                 <div className='search-wrap'>
                     <img src="./icons/search.png" alt="" className='search-icon' />
                     <input type="search" id='search' placeholder='Search' />
@@ -54,8 +55,8 @@ export function Header() {
                     <select name="blog" id="blog">
                         <option value="Blog">Blog</option>
                     </select>
-                    <a href="about">About Us</a>
-                    <a href="#">Contact Us</a>
+                    <Link to = "about">About Us</Link>
+                    <>Contact Us</>
                 </div>
                 <div className='contacts'>
                     <img src="./icons/phone.png" alt="" />
