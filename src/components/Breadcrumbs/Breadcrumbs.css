@@ -1,5 +1,5 @@
 .breadcrumbs-wrap {
-    background-image: url("breadcrumbs.png");
+    background-image: url("/public/breadcrumbs.png");
     width: 100vw;
     height: 120px;
     display: flex;
