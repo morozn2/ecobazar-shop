@@ -10,7 +10,7 @@
 }
 
 .month-sale {
-    background-image: url("./sales/monthly-sale.png");
+    background-image: url("/sales/monthly-sale.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 424px;
@@ -18,7 +18,7 @@
 }
 
 .meat-sale {
-    background-image: url("./sales/meat-sale.png");
+    background-image: url("/sales/meat-sale.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 424px;
@@ -124,7 +124,7 @@
 }
 
 .fruit-sale {
-    background-image: url("./sales/fruit-sale.png");
+    background-image: url("/sales/fruit-sale.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 424px;
