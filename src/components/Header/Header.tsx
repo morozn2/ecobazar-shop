@@ -56,7 +56,7 @@ export function Header() {
                         <option value="Blog">Blog</option>
                     </select>
                     <Link to = "about">About Us</Link>
-                    <>Contact Us</>
+                    <a href=''>Contact Us</a>
                 </div>
                 <div className='contacts'>
                     <img src="./icons/phone.png" alt="" />

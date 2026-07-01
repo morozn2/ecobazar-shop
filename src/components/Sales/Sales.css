@@ -1,0 +1,153 @@
+.sales-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85vw;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-self: center;
+}
+
+.month-sale {
+    background-image: url("./sales/monthly-sale.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 424px;
+    height: 536px;
+}
+
+.meat-sale {
+    background-image: url("./sales/meat-sale.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 424px;
+    height: 536px;
+}
+
+.sale-heading-small-white {
+    font-size: 14px;
+    color: white;
+}
+
+.sale-heading-small-black {
+    color: black;
+}
+
+.sale-info-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.sale-heading-big-white {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.sale-heading-big-black {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.timer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.timer-num {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.timer-desc {
+    font-size: 12px;
+    color: white;
+    opacity: 80%;
+    margin-bottom: 24px;
+}
+
+.two-dots {
+    color: white;
+    font-size: 24px;
+    opacity: 60%;
+    margin-top: -20px;
+}
+
+.shop-button-sales {
+    width: 40%;
+    height: 50px;
+    background-color: white;
+    color: #00B207;
+    border: none;
+    border-radius: 53px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sale-text-white {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.orange-text {
+    color: #FF8A00;
+    font-weight: 600;
+}
+
+.fruit-sale {
+    background-image: url("./sales/fruit-sale.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 424px;
+    height: 536px;
+}
+
+.sale-text-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.sale-label {
+    background-color: black;
+    color: #FCC900;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
