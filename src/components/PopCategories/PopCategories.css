@@ -3,7 +3,6 @@
     flex-direction: column;
     width: 85vw;
     justify-self: center;
-    margin-bottom: 60px;
 }
 
 .categories-heading-wrap {
@@ -13,9 +12,10 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 32px;
+    margin-top: 60px;
 }
 
-.pop-categories-heading {
+.categories-heading {
     font-size: 32px;
     font-weight: 600;
 }

@@ -1,0 +1,64 @@
+.big-summer-sale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.big-summer-sale-banner {
+    width: 85vw;
+    background-image: url('./sale-banners/summer-sale-banner.png');
+    height: 358px;
+    margin-top: 60px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.big-summer-sale-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 35%;
+    right: 0;
+    top: 60px;
+}
+
+.sale-heading-white {
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.sale-percentage {
+    color: white;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.orange-text {
+    color: #FF8A00;
+}
+
+.sale-description {
+    color: white;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.shop-button-s-sale {
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: #00B207;
+    border: none;
+    border-radius: 53px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}

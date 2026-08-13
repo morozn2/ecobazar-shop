@@ -11,21 +11,21 @@ export function Features() {
                 </div>
             </div>
             <div className='feature-wrap'>
-                <img src="./icons/delivery-truck.png" alt="" />
+                <img src="./icons/headphones.png" alt="" />
                 <div className='feature-info'>
                     <b>Customer Support 24/7</b>
                     <p className='feature-desc'>Instant access to support</p>
                 </div>
             </div>
             <div className='feature-wrap'>
-                <img src="./icons/delivery-truck.png" alt="" />
+                <img src="./icons/shopping-bag.png" alt="" />
                 <div className='feature-info'>
                     <b>100% Secure Payment</b>
                     <p className='feature-desc'>We ensure your money is safe</p>
                 </div>
             </div>
             <div className='feature-wrap'>
-                <img src="./icons/delivery-truck.png" alt="" />
+                <img src="./icons/package.png" alt="" />
                 <div className='feature-info'>
                     <b>Money-back guarantee</b>
                     <p className='feature-desc'>30 Days Money-Back Guarantee</p>

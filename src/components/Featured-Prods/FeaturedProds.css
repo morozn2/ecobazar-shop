@@ -1,0 +1,20 @@
+.featured-prods-body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-prods-wrap {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.prods-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}

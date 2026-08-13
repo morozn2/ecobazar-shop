@@ -4,7 +4,7 @@ export function PopCategories() {
     return (
         <div className='pop-categories'>
             <div className='categories-heading-wrap'>
-                <p className='pop-categories-heading'>Popular Categories</p>
+                <p className='categories-heading'>Popular Categories</p>
                 <a href="#" className='view-all'>
                     <p>View All</p>
                     <p>🡢</p>
@@ -13,73 +13,73 @@ export function PopCategories() {
             <div className='categories-container'>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="fruits.png" alt="" />
+                        <img src="./categories/fruits.png" alt="" />
                         <p>Fresh Fruit</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="vegetables.png" alt="" />
+                        <img src="./categories/vegetables.png" alt="" />
                         <p>Fresh Vegetables</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="fish.png" alt="" />
+                        <img src="./categories/fish.png" alt="" />
                         <p>Meat & Fish</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="snacks.png" alt="" />
+                        <img src="./categories/snacks.png" alt="" />
                         <p>Snacks</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="beverages.png" alt="" />
+                        <img src="./categories/beverages.png" alt="" />
                         <p>Beverages</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="beauty.png" alt="" />
+                        <img src="./categories/beauty.png" alt="" />
                         <p>Beauty & Health</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="bread-n-bakery.png" alt="" />
+                        <img src="./categories/bread-n-bakery.png" alt="" />
                         <p>Bread & Bakery</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="baking.png" alt="" />
+                        <img src="./categories/baking.png" alt="" />
                         <p>Baking Needs</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="cooking.png" alt="" />
+                        <img src="./categories/cooking.png" alt="" />
                         <p>Cooking</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="diabetic.png" alt="" />
+                        <img src="./categories/diabetic.png" alt="" />
                         <p>Diabetic Food</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="dish-detergents.png" alt="" />
+                        <img src="./categories/dish-detergents.png" alt="" />
                         <p>Dish Detergents</p>
                     </div>
                 </a>
                 <a href="#" className='category-link'>
                     <div className='category'>
-                        <img src="oil.png" alt="" />
+                        <img src="./categories/oil.png" alt="" />
                         <p>Oil</p>
                     </div>
                 </a>
