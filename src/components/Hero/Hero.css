@@ -11,7 +11,7 @@
 }
 
 .big-hero {
-    background-image: url("./sale-banners/big-hero.png");
+    background-image: url("/public/sale-banners/big-hero.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 872px;
@@ -88,7 +88,7 @@
 }
 
 .small-hero-one {
-    background-image: url("./sale-banners/small-hero-one.png");
+    background-image: url("/public/sale-banners/small-hero-one.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 423px;
@@ -138,7 +138,7 @@
 }
 
 .small-hero-two {
-    background-image: url("./sale-banners/small-hero-two.png");
+    background-image: url("/public/sale-banners/small-hero-two.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 423px;
