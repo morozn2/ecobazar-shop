@@ -2,7 +2,7 @@ import './SummerSale.css'
 
 export function SummerSale() {
     return (
-        <div className='big-summer-sale'>
+        <section className='big-summer-sale'>
             <div className='big-summer-sale-banner'>
                 <div className='big-summer-sale-info'>
                     <p className='sale-heading-white'>SUMMER SALE</p>
@@ -14,6 +14,6 @@ export function SummerSale() {
                     </button>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

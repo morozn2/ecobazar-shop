@@ -2,7 +2,7 @@ import './Features.css'
 
 export function Features() {
     return (
-        <div className='features-container'>
+        <section className='features-container'>
             <div className='feature-wrap'>
                 <img src="./icons/delivery-truck.png" alt="" />
                 <div className='feature-info'>
@@ -31,6 +31,6 @@ export function Features() {
                     <p className='feature-desc'>30 Days Money-Back Guarantee</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

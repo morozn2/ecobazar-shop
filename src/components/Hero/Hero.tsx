@@ -2,7 +2,7 @@ import './Hero.css'
 
 export function Hero() {
     return (
-        <div className='hero-container'>
+        <section className='hero-container'>
             <div className='big-hero'>
                 <div className='big-hero-content'>
                     <h2>Fresh & Healthy Organic Food</h2>
@@ -39,6 +39,6 @@ export function Hero() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

@@ -2,7 +2,7 @@ import './PopProducts.css'
 
 export function PopProducts() {
     return (
-        <div className='pop-prod-wrap'>
+        <section className='pop-prod-wrap'>
             <div className='categories-heading-wrap'>
                 <p className='categories-heading'>Popular Products</p>
                 <a href="#" className='view-all'>
@@ -129,6 +129,6 @@ export function PopProducts() {
                 </div>
             </div>
             
-        </div>
+        </section>
     )
 }

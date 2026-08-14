@@ -6,8 +6,11 @@ import { PopProducts } from "../../components/PopProducts/PopProducts"
 import { Sales } from "../../components/Sales/Sales"
 import { HotDeals } from "../../components/HotDeals/HotDeals"
 import { SummerSale } from "../../components/SummerSale/SummerSale"
-import { FeaturedProds } from "../../components/Featured-Prods/FeaturedProds"
+import { FeaturedProds } from "../../components/FeaturedProds/FeaturedProds"
 import { News } from "../../components/News/News"
+import { Testimonials } from "../../components/Testimonials/Testimonials"
+import { Associates } from "../../components/Associates/Associates"
+import { Insta } from "../../components/Instagram/Insta"
 
 export function Home() {
     return (
@@ -22,6 +25,9 @@ export function Home() {
             <SummerSale />
             <FeaturedProds />
             <News />
+            <Testimonials />
+            <Associates />
+            <Insta />
         </>
     )
 }

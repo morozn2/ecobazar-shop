@@ -2,7 +2,7 @@ import './PopCategories.css'
 
 export function PopCategories() {
     return (
-        <div className='pop-categories'>
+        <section className='pop-categories'>
             <div className='categories-heading-wrap'>
                 <p className='categories-heading'>Popular Categories</p>
                 <a href="#" className='view-all'>
@@ -84,6 +84,6 @@ export function PopCategories() {
                     </div>
                 </a>
             </div>
-        </div>
+        </section>
     )
 }

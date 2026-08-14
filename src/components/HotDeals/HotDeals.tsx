@@ -2,7 +2,7 @@ import './HotDeals.css'
 
 export function HotDeals() {
     return (
-        <div className='hot-deals'>
+        <section className='hot-deals'>
             <div className='hot-deals-box'>
                 <div className='categories-heading-wrap'>
                     <p className='categories-heading'>Hot Deals</p>
@@ -207,6 +207,6 @@ export function HotDeals() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

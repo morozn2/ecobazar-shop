@@ -2,7 +2,7 @@ import './Sales.css'
 
 export function Sales() {
     return (
-        <div className='sales-container'>
+        <section className='sales-container'>
             <div className='month-sale'>
                 <div className='sale-info-wrap'>
                     <p className='sale-heading-small-white'>BEST DEALS</p>
@@ -67,6 +67,6 @@ export function Sales() {
                     </button>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
