@@ -11,6 +11,7 @@ import { News } from "../../components/News/News"
 import { Testimonials } from "../../components/Testimonials/Testimonials"
 import { Associates } from "../../components/Associates/Associates"
 import { Insta } from "../../components/Instagram/Insta"
+import { Footer } from "../../components/Footer/Footer"
 
 export function Home() {
     return (
@@ -28,6 +29,7 @@ export function Home() {
             <Testimonials />
             <Associates />
             <Insta />
+            <Footer />
         </>
     )
 }

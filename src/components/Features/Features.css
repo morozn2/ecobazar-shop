@@ -1,14 +1,26 @@
+.features-main-body {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-body {
+    width: 85%;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 11px 20px 5px rgba(213, 213, 213, 0.75);
+}
+
 .features-container {
     display: flex;
     flex-direction: row;
-    border: none;
-    width: 80vw;
-    justify-self: center;
     align-items: center;
     justify-content: space-between;
-    border-radius: 8px;
-    padding: 45px;
-    box-shadow: 0px 11px 20px 5px rgba(213,213,213,0.75);
+    width: 95%;
 }
 
 .feature-wrap {
