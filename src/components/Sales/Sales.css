@@ -10,7 +10,7 @@
 }
 
 .month-sale {
-    background-image: url("/public/sales/monthly-sale.png");
+    background-image: url("/sales/monthly-sale.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 424px;
@@ -18,7 +18,7 @@
 }
 
 .meat-sale {
-    background-image: url("/public/sales/meat-sale.png");
+    background-image: url("/sales/meat-sale.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 424px;
@@ -46,8 +46,7 @@
     font-size: 40px;
     color: white;
     font-weight: 600;
-    margin-top: 16px;
-    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .sale-heading-big-black {
@@ -61,9 +60,9 @@
 .timer {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     width: 65%;
+    position: relative;
 }
 
 .timer-section {
@@ -71,17 +70,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
 }
 
 .timer-num {
     color: white;
-    font-weight: 500;
     font-size: 24px;
 }
 
 .timer-desc {
-    font-size: 10px;
+    font-size: 12px;
     color: white;
     opacity: 80%;
     margin-bottom: 24px;
@@ -91,7 +88,6 @@
     color: white;
     font-size: 24px;
     opacity: 60%;
-    margin-top: -20px;
 }
 
 .shop-button-sales {
@@ -124,7 +120,7 @@
 }
 
 .fruit-sale {
-    background-image: url("/public/sales/fruit-sale.png");
+    background-image: url("/sales/fruit-sale.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 424px;

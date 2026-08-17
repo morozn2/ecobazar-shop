@@ -12,23 +12,17 @@ export function Sales() {
                             <p className='timer-num'>00</p>
                             <p className='timer-desc'>DAYS</p>
                         </div>
-                        <div className='two-dots'>
-                            <p>:</p>
-                        </div>
+                        <p className='two-dots'>:</p>
                         <div className='timer-section'>
                             <p className='timer-num'>02</p>
                             <p className='timer-desc'>HOURS</p>
                         </div>
-                        <div className='two-dots'>
-                            <p>:</p>
-                        </div>
+                        <p className='two-dots'>:</p>
                         <div className='timer-section'>
                             <p className='timer-num'>18</p>
                             <p className='timer-desc'>MINS</p>
                         </div>
-                        <div className='two-dots'>
-                            <p>:</p>
-                        </div>
+                        <p className='two-dots'>:</p>
                         <div className='timer-section'>
                             <p className='timer-num'>46</p>
                             <p className='timer-desc'>SECS</p>

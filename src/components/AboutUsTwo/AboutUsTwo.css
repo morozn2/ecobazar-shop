@@ -1,0 +1,80 @@
+.about-us-two-body {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.images {
+    background-image: url(/public/decor/wheat-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 685px;
+    width: 62%;
+    position: relative;
+}
+
+.grandpa-two {
+    position: absolute;
+    right: 16%;
+}
+
+.about-two-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 43%;
+    position: absolute;
+    right: 4%;
+}
+
+.about-two-heading {
+    width: 85%;
+    font-size: 53px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 120%;
+}
+
+.about-two-text {
+    width: 90%;
+    color: #808080;
+}
+
+.about-features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+    gap: 23px;
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    width: 48%;
+    gap: 16px;
+}
+
+.feature-text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.feature-heading {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.feature-desc {
+    font-size: 14px;
+    color: #808080;
+}
+
+.feature-icon {
+    width: 24%;
+}

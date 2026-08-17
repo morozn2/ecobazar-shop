@@ -37,6 +37,10 @@
     gap: 8px;
 }
 
+.feature-heading-homepage {
+    font-weight: 600;
+}
+
 .feature-desc {
     font-size: 14px;
     color: #999999;

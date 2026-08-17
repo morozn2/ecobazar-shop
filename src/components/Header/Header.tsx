@@ -28,7 +28,7 @@ export function Header() {
             </div>
             <div className='middle-nav-body'>
                 <div className='middle-nav'>
-                    <Link to="/"><img src="logo.png" alt="Ecobazar logo" /></Link>
+                    <Link to="/"><img src="./icons/logo.png" alt="Ecobazar logo" /></Link>
                     <div className='search-wrap'>
                         <img src="./icons/search.png" alt="" className='search-icon' />
                         <input type="search" id='search' placeholder='Search' />

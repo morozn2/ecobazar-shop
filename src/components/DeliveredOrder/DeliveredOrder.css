@@ -1,0 +1,81 @@
+.delivered-order-body {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.delivered-order {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    top: 160px;
+    margin-top: 160px;
+    margin-bottom: 105px;
+}
+
+.delivered-order-box {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+}
+
+.order-heading {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 24px;
+    font-family: Poppins;
+}
+
+.order-desc {
+    font-family: Poppins;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.benefits-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.benefit-text {
+    font-size: 14px;
+    font-family: Poppins;
+    color: #666666;
+}
+
+.green-shop-btn {
+    width: 35%;
+    height: 50px;
+    background-color: #00B207;
+    color: white;
+    border: none;
+    border-radius: 53px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.delivery-man {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+}
