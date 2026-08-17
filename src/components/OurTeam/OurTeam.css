@@ -81,7 +81,7 @@
     }
 }
 
-.worker-pic-bg:hover {
+.worker:hover {
     .worker-pic {
         opacity: 50%;
     }
