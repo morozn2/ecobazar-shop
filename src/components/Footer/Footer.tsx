@@ -1,4 +1,5 @@
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 export function Footer() {
     return (
@@ -55,7 +56,7 @@ export function Footer() {
                         <nav>
                             <p className='nav-heading'>Proxy</p>
                             <div className='nav-content'>
-                                <a href='#'>About</a>
+                                <Link to="about">About</Link>
                                 <a href='#'>Shop</a>
                                 <a href='#'>Product</a>
                                 <a href='#'>Track Order</a>
